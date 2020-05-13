@@ -1,0 +1,133 @@
+/* CSS del Fluentify Template */
+
+/* Reset margini e paddin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.centratura {
+  width: 100%;
+}
+
+.logo {
+  width: 15%;
+  padding-top: 15px;
+}
+
+.fields {
+  width: 45%;
+  position: absolute;
+  top: 28px;
+}
+
+.navlink {
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.navlink a {
+  color: white;
+  text-decoration: none;
+}
+
+.login {
+  width: 25%;
+}
+
+nav {
+  /* debug */
+  background-color: #083357;
+  padding: 0 5%;
+  position: relative;
+  height: 80px;
+}
+
+nav div {
+  display: inline-block;
+}
+
+
+.downhead {
+  /* debug */
+  background-color: yellow;
+  height: 600px;
+}
+
+.slogan {
+  /* debug */
+  background color: grey;
+  height: 250px;
+}
+
+.box3colonne {
+  /* debug */
+  background: blue;
+  height: 500px;
+  width: 100%;
+  padding: 5%;
+}
+
+.box3colonne::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  /* debug */
+  background-color: green;
+  height: 300px;
+  width: 33.3%;
+  float: left;
+}
+
+.box2colonne {
+  /* debug */
+  background: cyan;
+  height: 500px;
+  width: 100%;
+  padding: 5%;
+}
+
+.box2colonne::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bigcol {
+  /* debug */
+  background-color: darkcyan;
+  height: 300px;
+  width: 50%;
+  float: left;
+}
+
+.boxfooter {
+  /* debug */
+  background: black;
+  height: 200px;
+  width: 100%;
+  padding: 5%;
+}
+
+.boxfooter::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footblock {
+  background-color: pink;
+  height: 100px;
+  width: 50%;
+  float: left;
+  padding: 5%;
+}
