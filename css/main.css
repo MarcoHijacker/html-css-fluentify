@@ -6,60 +6,61 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Font sul body */
 body {
   font-family: Montserrat;
 }
-
+/* Classe inutile... */
 .centratura {
   width: 100%;
 }
-
+/* Classe logo navbar */
 .logo {
   width: 15%;
   padding-top: 15px;
   position: relative;
   top: 10px;
 }
-
+/* Classe blocco links navbar */
 .fields {
   width: 45%;
   top: 28px;
 }
-
+/* Classe links navbar */
 .navlink {
   font-size: 12px;
   font-weight: 600;
   margin-right: 5px;
 }
-
+/* Rimozione sottolineatura links e colore bianco */
 .navlink a {
   color: white;
   text-decoration: none;
 }
-
+/* Classe area login navbar */
 .login {
   width: 35%;
+  text-align: right;
 }
-
+/* Bottone login */
 .alogin {
   border: solid 1px white;
   padding: 5px;
   border-radius: 2px;
 }
-
+/* Tasto verde navbar */
 .astruttura {
-  background-color: lightgreen;
+  background-color: #77ba3b;
   padding: 5px;
   border-radius: 2px;
   text-shadow: 1px 1px 1px #666;
 }
-
+/* Rimozione sottolinatura e impostazione bianco */
 .spot a {
   color: white;
   text-decoration: none;
 }
-
+/* Classe principale navbar */
 nav {
   /* debug */
   background-color: #083357;
@@ -67,19 +68,17 @@ nav {
   position: relative;
   height: 100px;
 }
-
+/* Rendo inline-block i div della nav */
 nav div {
   display: inline-block;
 }
-
-
+/* Blocco inferiore Header */
 .downhead {
-  /* debug */
   background-color: #083357;
   height: 500px;
   position: relative;
 }
-
+/* Classe per slogan grande a sinistra */
 .spot {
   font-size: 40px;
   color: white;
@@ -88,16 +87,16 @@ nav div {
   left: 5%;
   top: 10%;
 }
-
+/* Classe bottone STRUTTURA PIANO */
 .button {
   font-size: 14px;
   top: 35%;
-  background-color: lightgreen;
+  background-color: #77ba3b;
   padding: 10px;
   border-radius: 2px;
   text-shadow: 1px 1px 1px #666;
 }
-
+/* Classe per placement immagine nel down Header */
 .peopleimage {
   height: 100%;
   width: 100%;
@@ -107,14 +106,13 @@ nav div {
   background-repeat: no-repeat;
   z-index: 90;
 }
-
+/* Classe blocchetto grigio con slogan */
 .slogan {
-  /* debug */
   background-color: lightgray;
   height: 150px;
   position: relative;
 }
-
+/* Classe testo slogan */
 .blackspot {
   color: black;
   font-size: 18px;
@@ -124,76 +122,136 @@ nav div {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+/* Riduzione font per sottotitolo slogan */
 .thin {
   color: grey;
   font-size: 12px;
   font-weight: 400;
   top: 60%;
 }
-
+/* Classe del box contenente 3 colonne */
 .box3colonne {
   /* debug */
-  background: blue;
+  background: white;
   height: 500px;
   width: 100%;
   padding: 5%;
 }
-
+/* Clear per le colonne in float */
 .box3colonne::after {
   content: "";
   display: table;
   clear: both;
 }
-
+/* Classe di una colonna float */
 .column {
-  /* debug */
-  background-color: green;
-  height: 300px;
   width: 33.3%;
   float: left;
+  text-align: center;
+  padding: 0 15px;
 }
-
+/* Classe blocco paragrafo */
+.blockpar {
+  color: darkgrey;
+  font-size: 12px;
+  padding: 10px;
+}
+/* Classe blocco titolo */
+.blocktitle {
+  color: #77ba3b;
+  font-size: 18px;
+  padding: 15px;
+}
+/* Classe box 2 colonne */
 .box2colonne {
-  /* debug */
-  background: cyan;
-  height: 500px;
+  border-top: solid 1px lightgray;
   width: 100%;
   padding: 5%;
 }
-
+/* Impostazione clear del box 2 colonne */
 .box2colonne::after {
   content: "";
   display: table;
   clear: both;
 }
-
+/* Classe colonna in float */
 .bigcol {
-  /* debug */
-  background-color: darkcyan;
-  height: 300px;
   width: 50%;
   float: left;
+  text-align: center;
 }
-
-.boxfooter {
-  /* debug */
-  background: black;
-  height: 200px;
-  width: 100%;
+/* Allineamento testo colonna paragrafo */
+.textcol {
+  text-align: left;
+}
+/* Classe titolo colonna */
+.downtitle {
+  font-size: 20px;
+  font-weight: 600;
   padding: 5%;
 }
-
+/* Classe paragrafo colonna */
+.downtext {
+  color: darkgrey;
+  font-size: 14px;
+  padding: 0 5%;
+}
+/* Classe link colonna */
+.downlink {
+  font-size: 14px;
+  padding: 5%;
+}
+/* Classe blocco footer */
+.boxfooter {
+  background: lightgray;
+  height: 150px;
+  width: 100%;
+  padding: 0 5%;
+}
+/* Impostazione clear per footer */
 .boxfooter::after {
   content: "";
   display: table;
   clear: both;
 }
-
-.footblock {
-  background-color: pink;
-  height: 100px;
+/* Classe colonna 1 del footer */
+.footblock1 {
   width: 50%;
   float: left;
   padding: 5%;
+}
+/* Classe colonna 2 del footer */
+.footblock2 {
+  width: 25%;
+  float: left;
+  padding: 5%;
+}
+/* Classe colonna 3 del footer */
+.footblock3 {
+  width: 25%;
+  float: left;
+  padding: 5%;
+}
+/* Classe bottoni a destra nel footer */
+.buttonlock3 {
+  font-size: 12px;
+  background-color: #77ba3b;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
+}
+/* Misplacement fra i 2 bottoni */
+.misplace {
+  margin-top: 10px;
+}
+/* Rimozione sottolineatura links e impostazione bianco */
+.buttonlock3 a {
+  color: white;
+  text-decoration: none;
+}
+/* Testo in grande a sx nel footer */
+.textlock1 {
+  font-size: 16px;
+  font-weight: 800px;
 }
