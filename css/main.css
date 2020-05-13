@@ -18,11 +18,12 @@ body {
 .logo {
   width: 15%;
   padding-top: 15px;
+  position: relative;
+  top: 10px;
 }
 
 .fields {
   width: 45%;
-  position: absolute;
   top: 28px;
 }
 
@@ -38,7 +39,7 @@ body {
 }
 
 .login {
-  width: 25%;
+  width: 30%;
 }
 
 nav {
@@ -46,7 +47,7 @@ nav {
   background-color: #083357;
   padding: 0 5%;
   position: relative;
-  height: 80px;
+  height: 100px;
 }
 
 nav div {
