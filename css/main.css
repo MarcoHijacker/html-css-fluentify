@@ -39,7 +39,25 @@ body {
 }
 
 .login {
-  width: 30%;
+  width: 35%;
+}
+
+.alogin {
+  border: solid 1px white;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.astruttura {
+  background-color: lightgreen;
+  padding: 5px;
+  border-radius: 2px;
+  text-shadow: 1px 1px 1px #666;
+}
+
+.spot a {
+  color: white;
+  text-decoration: none;
 }
 
 nav {
@@ -57,14 +75,61 @@ nav div {
 
 .downhead {
   /* debug */
-  background-color: yellow;
-  height: 600px;
+  background-color: #083357;
+  height: 500px;
+  position: relative;
+}
+
+.spot {
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 1px 1px white;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+
+.button {
+  font-size: 14px;
+  top: 35%;
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 2px;
+  text-shadow: 1px 1px 1px #666;
+}
+
+.peopleimage {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/fluentify-jumbo.png);
+  background-position: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 90;
 }
 
 .slogan {
   /* debug */
-  background color: grey;
-  height: 250px;
+  background-color: lightgray;
+  height: 150px;
+  position: relative;
+}
+
+.blackspot {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.thin {
+  color: grey;
+  font-size: 12px;
+  font-weight: 400;
+  top: 60%;
 }
 
 .box3colonne {
